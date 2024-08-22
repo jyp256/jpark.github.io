@@ -19,14 +19,14 @@ body {
 }
 
 a {
-  color: #F03861;
+  color: #B2BEB5;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none;
-  color: #F03861;
+  color: #B2BEB5;
 }
 a:focus, a:active {
   outline: none;
@@ -75,14 +75,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #F03861;
+  background: #B2BEB5;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #F03861;
+  background: #B2BEB5;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -15px;
   width: 20px;
   height: 3px;
-  background: #F03861;
+  background: #B2BEB5;
 }
 
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
@@ -140,7 +140,7 @@ header .fh5co-navbar-brand .fh5co-logo:after {
   right: -14px;
   width: 12px;
   height: 12px;
-  background: #F03861;
+  background: #B2BEB5;
   content: '';
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
@@ -176,7 +176,7 @@ header #fh5co-main-nav > ul li a.active:before {
   content: '';
   top: -5px;
   right: -7px;
-  background: #F03861;
+  background: #B2BEB5;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -369,23 +369,23 @@ header #fh5co-main-nav > ul li:first-child {
 .item .pop-up-overlay {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 1.3em;
   left: 0;
   right: 0;
-  background: rgba(240, 56, 97, 0.8);
+  background: rgba(226,240,255, 0.8);
   opacity: 0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .item .pop-up-overlay.pop-up-overlay-color-2 {
-  background: rgba(248, 125, 9, 0.8) !important;
+  background: rgba(193,193,193, 0.8) !important;
 }
 .item .pop-up-overlay.pop-up-overlay-color-3 {
-  background: rgba(23, 231, 164, 0.8) !important;
+  background: rgba(198,226,255, 0.8) !important;
 }
 .item .pop-up-overlay.pop-up-overlay-color-4 {
-  background: rgba(249, 197, 53, 0.8) !important;
+  background: rgba(147,147,147, 0.8) !important;
 }
 .item .pop-up-overlay .desc {
   position: absolute;
@@ -397,12 +397,12 @@ header #fh5co-main-nav > ul li:first-child {
   padding: 30px;
 }
 .item .pop-up-overlay .desc h3 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
   margin-bottom: 10px;
 }
 .item .pop-up-overlay .desc span {
   display: block;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 .item .pop-up-overlay:hover, .item .pop-up-overlay:focus {
   text-decoration: none;
@@ -537,7 +537,7 @@ header #fh5co-main-nav > ul li:first-child {
   font-size: 60px;
   display: block;
   margin-bottom: 30px;
-  color: #F03861;
+  color: #B2BEB5;
 }
 
 .fhco-hero2 {
@@ -571,7 +571,7 @@ header #fh5co-main-nav > ul li:first-child {
   position: absolute;
   top: 0;
   left: 0;
-  background: #F03861;
+  background: #B2BEB5;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -607,7 +607,7 @@ header #fh5co-main-nav > ul li:first-child {
   position: absolute;
   top: 0;
   right: 0;
-  background: #F03861;
+  background: #B2BEB5;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -822,10 +822,10 @@ header #fh5co-main-nav > ul li:first-child {
   top: .3em;
   left: 0;
   font-size: 22px;
-  color: #F03861;
+  color: #B2BEB5;
 }
 .contact-info li a {
-  color: #F03861;
+  color: #B2BEB5;
 }
 
 .form-control {
