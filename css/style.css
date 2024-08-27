@@ -11,6 +11,10 @@
 *	Edit this section
 *
 * ======================================================= */
+
+.accordion-button{
+  text-align: center;
+}
 body {
   font-family: "Roboto", Arial, serif;
   line-height: 1.8;
