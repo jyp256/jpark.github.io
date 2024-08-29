@@ -5702,11 +5702,17 @@ a.thumbnail.active {
 }
 
 .media-body {
+  padding-left: 1em;
   width: 10000px;
 }
 
 .media-object {
   display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  max-width: 500px;
+  max-height: 500px;
 }
 .media-object.img-thumbnail {
   max-width: none;
@@ -5738,6 +5744,7 @@ a.thumbnail.active {
 }
 
 .media-heading {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 5px;
 }
