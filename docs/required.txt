@@ -1,3 +1,4 @@
+Research:
 Identity of Information: Diversity in Witnesses in Congressional Hearings and Representation
 Why Do Political Elites Use Moral Rhetoric?
 Messaging in the Senate
@@ -6,4 +7,10 @@ The Impact of Income-Partisan Dealignment on Economic Voting
 Hearings on the Hill: The Evolution of Elite Discourse and Polarization 
 Inversed Representation: Top Down Issue Framing through Twitter
 
+Teaching:
 Tenure at OSU
+Washington University Causal Inference syllabus
+Washington University Maximum Likelihood Estimation and Generalized Linear Models, Spring 2019 syllabus
+Rutgers Introduction to Political Science Methods, Fall 2016, Spring 2017 syllabus
+Columbia Theories and Methodologies of the Social Sciences, Fall 2015 syllabus
+Columbia Data Analysis, Spring 2016 syllabus
