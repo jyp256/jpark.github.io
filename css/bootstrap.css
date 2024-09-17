@@ -4343,6 +4343,8 @@ tbody.collapse.in {
   width: 100%;
   table-layout: fixed;
   border-collapse: separate;
+  background: transparent;
+    border: none !important;
 }
 .btn-group-justified > .btn,
 .btn-group-justified > .btn-group {
