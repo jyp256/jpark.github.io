@@ -989,6 +989,12 @@ header #fh5co-main-nav>ul li:first-child {
   width: 410px;
 }
 
+iframe{
+  display:block;
+  margin: 0 auto;
+  width:85%;
+  height: 900px;
+}
 .centered {
   display: none;
 }
