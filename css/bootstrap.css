@@ -5710,8 +5710,7 @@ a.thumbnail.active {
 
 .media-object {
   display: block;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 20px;
   padding: 10px;
   max-width: 500px;
   max-height: 500px;
