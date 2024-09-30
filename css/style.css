@@ -997,9 +997,6 @@ iframe{
 }
 .centered {
   display: none;
-}
-
-.index_cont:hover .centered {
   display: block;
   position: absolute;
   color: black;
