@@ -977,15 +977,45 @@ header #fh5co-main-nav>ul li:first-child {
   color: #B2BEB5;
 }
 
-.index_cont {
+.index_cont1 {
   position: relative;
   text-align: center;
   color: white;
 }
 
-.index_cont img{
-  border-radius: 4px;
-  padding: 5px;
+.index_cont2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.index_cont3 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.index_cont4 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.index_cont1 img{
+  border-radius: 20px;
+  padding:5px;
+  width: 410px;
+}
+.index_cont2 img{
+  border-radius: 20px;
+  padding:5px;
+  width: 410px;
+}
+.index_cont3 img{
+  border-radius: 20px;
+  padding:5px;
+  width: 410px;
+}
+.index_cont4 img{
+  border-radius: 20px;
+  padding:5px;
   width: 410px;
 }
 
@@ -995,7 +1025,7 @@ iframe{
   width:85%;
   height: 900px;
 }
-.centered {
+.centered1 {
   display: none;
   display: block;
   position: absolute;
@@ -1005,11 +1035,69 @@ iframe{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #b2beb594;
+  background-color: #b2beb5bd;
   padding: 165px 115px;
+  border-radius: 20px;
 }
 
-.index_cont .centered a {
+.centered2 {
+  display: none;
+  display: block;
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b2beb5bd;
+  padding: 165px 121px;
+  border-radius: 20px;
+}
+
+.centered3 {
+  display: none;
+  display: block;
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b2beb5bd;
+  padding: 92px 153px;
+  border-radius: 20px;
+}
+
+.centered4 {
+  display: none;
+  display: block;
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b2beb5bd;
+  padding: 165px 173px;
+  border-radius: 20px;
+}
+
+.index_cont1 .centered1 a {
+  color: rgb(24, 24, 24);
+}
+
+.index_cont2 .centered2 a {
+  color: rgb(24, 24, 24);
+}
+
+.index_cont3 .centered3 a {
+  color: rgb(24, 24, 24);
+}
+
+.index_cont4 .centered4 a {
   color: rgb(24, 24, 24);
 }
 
