@@ -1017,14 +1017,9 @@ header #fh5co-main-nav>ul li:first-child {
   border-radius: 20px;
   padding:5px;
   width: 410px;
+  height:410px;
 }
 
-iframe{
-  display:block;
-  margin: 0 auto;
-  width:85%;
-  height: 900px;
-}
 .centered1 {
   display: none;
   display: block;
