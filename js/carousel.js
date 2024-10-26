@@ -1,147 +1,38 @@
 $(document).ready(function () {
 
-    //Hide all elements
-    $("body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2)").hide();
-    $("body > div:nth-child(3) > div:nth-child(2) > div:nth-child(2)").hide();
-    $("body > div:nth-child(3) > div:nth-child(3) > div:nth-child(2)").hide();
-    $("body > div:nth-child(3) > div:nth-child(4) > div:nth-child(2)").hide();
-    $("body > div:nth-child(3) > div:nth-child(5) > div:nth-child(2)").hide();
-    $("body > div:nth-child(3) > div:nth-child(6) > div:nth-child(2)").hide();
-    $("body > div:nth-child(3) > div:nth-child(7) > div:nth-child(2)").hide();
-    $("body > div:nth-child(3) > div:nth-child(8) > div:nth-child(2)").hide();
-    $("body > div:nth-child(3) > div:nth-child(9) > div:nth-child(2)").hide();
-    $("body > div:nth-child(3) > div:nth-child(10) > div:nth-child(2)").hide();
-    $("div.panel:nth-child(11) > div:nth-child(2)").hide();
-    $("div.panel:nth-child(12) > div:nth-child(2)").hide();
-
-    $("body > div:nth-child(7) > div:nth-child(1) > div:nth-child(2)").hide();
-    $("body > div:nth-child(7) > div:nth-child(2) > div:nth-child(2)").hide();
-    $("body > div:nth-child(7) > div:nth-child(3) > div:nth-child(2)").hide();
-    $("body > div:nth-child(7) > div:nth-child(4) > div:nth-child(2)").hide();
-    $("body > div:nth-child(7) > div:nth-child(5) > div:nth-child(2)").hide();
-    $("body > div:nth-child(7) > div:nth-child(6) > div:nth-child(2)").hide();
-    $("body > div:nth-child(7) > div:nth-child(7) > div:nth-child(2)").hide();
-    $("body > div:nth-child(7) > div:nth-child(8) > div:nth-child(2)").hide();
-    $("body > div:nth-child(7) > div:nth-child(9) > div:nth-child(2)").hide();
-
-    $("body > div:nth-child(13) > div:nth-child(1) > div:nth-child(2)").hide();
-    $("body > div:nth-child(13) > div:nth-child(2) > div:nth-child(2)").hide();
-
-    //Button triggers
-    $("body > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2)").slideToggle();
+    // Publications
+    $("body > div:nth-child(3) >").each(function (index) {
+        var adjust = index + 1;
+        $("body > div:nth-child(3) > div:nth-child(" + adjust + ") >div:nth-child(2)").hide();
+        if ($("body > div:nth-child(3) > div:nth-child(" + adjust + ") >div:nth-child(2)").contents().length != 1) {
+            $("body > div:nth-child(3) > div:nth-child(" + adjust + ") > div:nth-child(1) > button:nth-child(1)").click(function () {
+                $("body > div:nth-child(3) > div:nth-child(" + adjust + ") > div:nth-child(2)").stop(true);
+                $("body > div:nth-child(3) > div:nth-child(" + adjust + ") > div:nth-child(2)").slideToggle();
+            });
+        }
     });
 
-    $("body > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(2) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(2) > div:nth-child(2)").slideToggle();
+    // Working Papers
+    $("body > div:nth-child(7) >").each(function (index) {
+        var adjust = index + 1;
+        $("body > div:nth-child(7) > div:nth-child(" + adjust + ") >div:nth-child(2)").hide();
+        if ($("body > div:nth-child(7) > div:nth-child(" + adjust + ") >div:nth-child(2)").contents().length != 1) {
+            $("body > div:nth-child(7) > div:nth-child(" + adjust + ") > div:nth-child(1) > button:nth-child(1)").click(function () {
+                $("body > div:nth-child(7) > div:nth-child(" + adjust + ") > div:nth-child(2)").stop(true);
+                $("body > div:nth-child(7) > div:nth-child(" + adjust + ") > div:nth-child(2)").slideToggle();
+            });
+        }
     });
 
-    $("body > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(3) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(3) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(4) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(4) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(5) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(5) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(3) > div:nth-child(6) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(6) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(6) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(3) > div:nth-child(7) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(7) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(7) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(3) > div:nth-child(8) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(8) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(8) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(3) > div:nth-child(9) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(9) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(9) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(3) > div:nth-child(10) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(3) > div:nth-child(10) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(3) > div:nth-child(10) > div:nth-child(2)").slideToggle();
-    });
-
-    $("div.panel:nth-child(11) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("div.panel:nth-child(11) > div:nth-child(2)").stop(true);
-        $("div.panel:nth-child(11) > div:nth-child(2)").slideToggle();
-    });
-
-    $("div.panel:nth-child(12) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("div.panel:nth-child(12) > div:nth-child(2)").stop(true);
-        $("div.panel:nth-child(12) > div:nth-child(2)").slideToggle();
-    });
-
-    //Working Papers
-    $("body > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(7) > div:nth-child(1) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(7) > div:nth-child(1) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(7) > div:nth-child(2) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(7) > div:nth-child(2) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(7) > div:nth-child(2) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(7) > div:nth-child(3) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(7) > div:nth-child(3) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(7) > div:nth-child(4) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(7) > div:nth-child(4) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(7) > div:nth-child(4) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(7) > div:nth-child(5) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(7) > div:nth-child(5) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(7) > div:nth-child(5) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(7) > div:nth-child(6) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(7) > div:nth-child(6) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(7) > div:nth-child(6) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(7) > div:nth-child(7) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(7) > div:nth-child(7) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(7) > div:nth-child(7) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(7) > div:nth-child(8) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(7) > div:nth-child(8) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(7) > div:nth-child(8) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(7) > div:nth-child(9) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(7) > div:nth-child(9) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(7) > div:nth-child(9) > div:nth-child(2)").slideToggle();
-    });
-
-    //Work in Progress
-    $("body > div:nth-child(13) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(13) > div:nth-child(1) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(13) > div:nth-child(1) > div:nth-child(2)").slideToggle();
-    });
-
-    $("body > div:nth-child(13) > div:nth-child(2) > div:nth-child(1) > button:nth-child(1)").click(function(){
-        $("body > div:nth-child(13) > div:nth-child(2) > div:nth-child(2)").stop(true);
-        $("body > div:nth-child(13) > div:nth-child(2) > div:nth-child(2)").slideToggle();
+    // Works in progress
+    $("body > div:nth-child(13) >").each(function (index) {
+        var adjust = index + 1;
+        $("body > div:nth-child(13) > div:nth-child(" + adjust + ") >div:nth-child(2)").hide();
+        if ($("body > div:nth-child(13) > div:nth-child(" + adjust + ") >div:nth-child(2)").contents().length != 1) {
+            $("body > div:nth-child(13) > div:nth-child(" + adjust + ") > div:nth-child(1) > button:nth-child(1)").click(function () {
+                $("body > div:nth-child(13) > div:nth-child(" + adjust + ") > div:nth-child(2)").stop(true);
+                $("body > div:nth-child(13) > div:nth-child(" + adjust + ") > div:nth-child(2)").slideToggle();
+            })
+        }
     });
 });
